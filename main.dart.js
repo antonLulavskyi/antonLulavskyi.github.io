@@ -52111,7 +52111,7 @@ s=this.c.a[this.d]
 r=A.a36(new A.qQ(A.ai8(p,p,new A.pE(s.a,p,p)),o*0.45,p),4)
 o=o>650?B.HL:B.HM
 q=t.E
-return A.q5(p,new A.xR(A.Ty(A.a([r,A.a36(A.LV(A.a([new A.fX(B.xe,A.a3W(s.b,p,o,p,p),p),A.q5(p,A.a3W(s.c,10,B.G_,p,p),p,p,250,B.xi,p,300),B.I3,new A.fX(B.xd,A.a3W(A.e(s.d),p,p,p,p),p),A.a36(A.LV(A.a([new A.fX(B.xc,new A.z1(new A.M2(),p,p,p,p,B.D,p,!1,B.I4,p),p)],q),B.B9),2)],q),B.bu),4)],q),B.bu,B.c0),p),p,p,400,m,p,n)}}
+return A.q5(p,new A.xR(A.Ty(A.a([r,A.a36(A.LV(A.a([new A.fX(B.xe,A.a3W(s.b,p,o,p,p),p),A.q5(p,A.a3W(s.c,10,B.G_,p,p),p,p,100,B.xi,p,300),B.I3,new A.fX(B.xd,A.a3W(A.e(s.d),p,p,p,p),p),A.a36(A.LV(A.a([new A.fX(B.xc,new A.z1(new A.M2(),p,p,p,p,B.D,p,!1,B.I4,p),p)],q),B.B9),1)],q),B.bu),4)],q),B.bu,B.c0),p),p,p,400,m,p,n)}}
 A.M2.prototype={
 $0(){},
 $S:0}
