@@ -52793,7 +52793,7 @@ P(a,b){var s,r=null,q=b.a2(t.w).f.a,p=q.b,o=q.a
 if(o<700)s=o/2.8/(p/4)
 else if(o<1390&&o>700)s=o/2.9/(p/2)
 else if(o>1390)s=o/12/(p/5)
-else s=o<=375?o/2.8/(p/3):1
+else s=o<=375?o/2/(p/4):1
 o=A.a8W(new A.SZ(),!0,!0,!0,4)
 return A.a8M(A.a3C(A.a([B.rF,A.le(new A.A_(new A.Wu(700,s),o,r,B.bd,!1,r,!0,B.t0,!1,r,4,B.aI,B.CB,r,B.a4,r),p*0.9,r)],t.E),B.dQ))}}
 A.SZ.prototype={
@@ -56667,7 +56667,7 @@ B.wR=new A.A(4294967040)
 B.EH=new A.DD(1,"double")
 B.H3=new A.m(!0,B.wa,null,"monospace",null,null,48,B.kn,null,null,null,null,null,null,null,null,null,B.EI,B.wR,B.EH,null,"fallback style; consider putting your text in a Material",null,null,null)
 B.Hk=new A.m(!0,null,null,null,null,null,null,B.bn,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.rD=new A.m(!0,null,null,null,null,null,18,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.rD=new A.m(!0,null,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.F4=new A.m(!0,B.t,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteRedmond displayLarge",null,null,null)
 B.F6=new A.m(!0,B.t,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteRedmond displayMedium",null,null,null)
 B.Gv=new A.m(!0,B.t,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteRedmond displaySmall",null,null,null)
