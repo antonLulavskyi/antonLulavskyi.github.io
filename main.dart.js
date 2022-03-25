@@ -52790,7 +52790,7 @@ A.m4.prototype={
 P(a,b){return A.a8M(A.a3C(A.a([B.rG],t.E),B.dQ))}}
 A.nv.prototype={
 P(a,b){var s,r=null,q=b.a2(t.w).f.a,p=q.b,o=q.a
-if(o<=375)s=o/p
+if(o<=375)s=o/(p*0.8)
 else if(o<700)s=o/2.8/(p/4)
 else if(o<1390&&o>700)s=o/2.9/(p/2)
 else s=o>1390?o/12/(p/5):1
