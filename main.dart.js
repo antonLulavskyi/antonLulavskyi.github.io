@@ -52793,7 +52793,7 @@ P(a,b){var s,r=null,q=b.a2(t.w).f.a,p=q.b,o=q.a
 if(o<700)s=o/2.8/(p/4)
 else if(o<1390&&o>700)s=o/2.9/(p/2)
 else if(o>1390)s=o/12/(p/5)
-else s=o<=375?o/2/(p/4):1
+else s=o<=375?o/2/(p/6):1
 o=A.a8W(new A.SZ(),!0,!0,!0,4)
 return A.a8M(A.a3C(A.a([B.rF,A.le(new A.A_(new A.Wu(700,s),o,r,B.bd,!1,r,!0,B.t0,!1,r,4,B.aI,B.CB,r,B.a4,r),p*0.9,r)],t.E),B.dQ))}}
 A.SZ.prototype={
