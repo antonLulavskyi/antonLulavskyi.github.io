@@ -52790,10 +52790,10 @@ A.m4.prototype={
 P(a,b){return A.a8M(A.a3C(A.a([B.rF],t.E),B.dQ))}}
 A.nv.prototype={
 P(a,b){var s,r=null,q=b.a2(t.w).f.a,p=q.b,o=q.a
-if(o<700)s=o/2.8/(p/4)
+if(o<=375)s=o/2/(p/6)
+else if(o<700)s=o/2.8/(p/4)
 else if(o<1390&&o>700)s=o/2.9/(p/2)
-else if(o>1390)s=o/12/(p/5)
-else s=o<=375?o/2/(p/6):1
+else s=o>1390?o/12/(p/5):1
 o=A.a8W(new A.SZ(),!0,!0,!0,4)
 return A.a8M(A.a3C(A.a([B.rF,A.le(new A.A_(new A.Wu(700,s),o,r,B.bd,!1,r,!0,B.t0,!1,r,4,B.aI,B.CB,r,B.a4,r),p*0.9,r)],t.E),B.dQ))}}
 A.SZ.prototype={
@@ -52801,7 +52801,7 @@ $2(a,b){return new A.ms(A.a8v(),b,new A.LO(new A.aN(new A.a_($.R,t.dX),t.Fe)),nu
 $S:340}
 A.ms.prototype={
 P(a,b){var s=this,r=null,q=b.a2(t.w).f.a,p=q.a,o=p>900?B.xp:B.xn,n=s.c.a,m=s.d,l=n[m].a.length,k=t.E
-return A.qk(r,new A.y7(10,new A.h1(B.xm,A.a3C(A.a([new A.q6(new A.LP(q.b*0.4,0.9,1,!0),new A.MA(s),s.e,l,r),A.le(A.nD(A.a([A.DC(B.Ie,new A.MB(s)),A.DC(B.Ib,new A.MC(s))],k),B.Bh,B.aO),r,p),new A.h1(B.xk,A.nD(A.a([B.Ia,A.a92(n[m].b,B.rD,r,r)],k),B.c1,B.aO),r),new A.h1(B.xl,A.nD(A.a([B.I9,A.a92(A.e(n[m].d),B.rD,r,r)],k),B.c1,B.aO),r),A.le(A.nD(A.a([B.E_,new A.zj(new A.MD(),r,r,r,r,B.D,r,!1,B.I8,r)],k),B.pE,B.aO),r,p)],k),B.dP),r),r),r,r,r,o,r,r)}}
+return A.qk(r,new A.y7(20,new A.h1(B.xm,A.a3C(A.a([new A.q6(new A.LP(q.b*0.4,0.9,1,!0),new A.MA(s),s.e,l,r),A.le(A.nD(A.a([A.DC(B.Ie,new A.MB(s)),A.DC(B.Ib,new A.MC(s))],k),B.Bh,B.aO),r,p),new A.h1(B.xk,A.nD(A.a([B.Ia,A.a92(n[m].b,B.rD,r,r)],k),B.c1,B.aO),r),new A.h1(B.xl,A.nD(A.a([B.I9,A.a92(A.e(n[m].d),B.rD,r,r)],k),B.c1,B.aO),r),A.le(A.nD(A.a([B.E_,new A.zj(new A.MD(),r,r,r,r,B.D,r,!1,B.I8,r)],k),B.pE,B.aO),r,p)],k),B.dP),r),r),r,r,r,o,r,r)}}
 A.MA.prototype={
 $3(a,b,c){var s=null,r=this.a
 r=r.c.a[r.d].a[b]
