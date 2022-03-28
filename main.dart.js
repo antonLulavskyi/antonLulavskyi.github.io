@@ -53281,8 +53281,8 @@ A.la.prototype={
 o1(){var s=0,r=A.a6(t.z)
 var $async$o1=A.a7(function(a,b){if(a===1)return A.a3(b,r)
 while(true)switch(s){case 0:s=2
-return A.aa(A.a3f("google.com"),$async$o1)
-case 2:if(!b)throw A.c("Could not launch google.com")
+return A.aa(A.a3f("https://github.com/antonLulavskyi/nyt_viewer_v1"),$async$o1)
+case 2:if(!b)throw A.c("Could not launch https://github.com/antonLulavskyi/nyt_viewer_v1")
 return A.a4(null,r)}})
 return A.a5($async$o1,r)},
 O(a,b){var s=null,r=t.dC.a(A.rW(b,t.X).b.b),q=b.a1(t.w).f.a,p=r.a[this.c]
